@@ -2,11 +2,12 @@
 # name: str = "Alice" 
 
 name = "Alice"
+lastName: str = "xavier"
 age = 30
 price = 99.99890
 is_trading = True
 
-print(f"Hello {name}, you are {age} years old and the price is {price:.2f} and is trading {is_trading}")
+print(f"Hello {name} {lastName}, you are {age} years old and the price is {price:.2f} and is trading {is_trading}")
 
 # the f is for format string and it allows us to embed the variables inside the string, we can also format the price to 2 decimal places by using {price:.2f}, we can also use the round function to round the price to 2 decimal places by using round(price, 2)
 print(f"Hello {name}, you are {age} years old and the price is {round(price, 2)} and is trading {is_trading}")  
