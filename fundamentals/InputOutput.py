@@ -21,13 +21,13 @@ user_age = input("Enter you age: ")
 # education 
 
 
-# domain_knowledge = []
-# domain_k = int(input("how many domains of knowledge do you have ?"))
-# for i in range(domain_k):
-#   domains = input("Enter domain name #" + str(i+1)+ ": ")
-#   domain_knowledge.append(domains)
-# print("you have domain knowledge of : ", domain_knowledge)
-# print(f"Hello {user_name} !, age:{user_age} , and you have skills in {domain_knowledge}")
+domain_knowledge = []
+domain_k = int(input("how many domains of knowledge do you have ?"))
+for i in range(domain_k):
+  domains = input("Enter domain name #" + str(i+1)+ ": ")
+  domain_knowledge.append(domains)
+print("you have domain knowledge of : ", domain_knowledge)
+print(f"Hello {user_name} !, age:{user_age} , and you have skills in {domain_knowledge}")
 
 
 # now we will use a while loop with a sentinel value 
