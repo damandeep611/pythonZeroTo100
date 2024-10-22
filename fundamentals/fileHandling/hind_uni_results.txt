@@ -1,0 +1,4 @@
+Highest Price: 3141.25
+Lowest Price: 106.15
+Average Price: 681.7999623068224
+Total Trading Days: 5306
