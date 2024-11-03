@@ -40,7 +40,7 @@ df['MA20'] = df['Close'].rolling(window=20).mean()
 df['MA50'] = df['Close'].rolling(window=50).mean()
 
 # exporting to excel file (more readable format)
-df.to_excel('hind_uni_indicators.xlsx', index=False)
+df.to_excel('hind_uni_results.xlsx', index=False)
 
 # finding specific patterns and writing them to a file
 
